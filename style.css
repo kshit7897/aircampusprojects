@@ -1,0 +1,184 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 
+...............start Header form below........... */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+ flex-wrap: wrap;
+}
+
+header h1{
+    color:black;
+    text-transform: uppercase;
+}
+nav a{
+    padding: px 0;
+    color: blue;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+nav .active{
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.first{
+    padding:  10px 15px;
+    background-color: rgb(192, 233, 214);
+
+}
+.head{
+    margin: 10px;
+    text-align: center;
+}
+.inner-one{
+    border: 2px solid red;
+    height: 350px;
+    width: 350px;
+    margin: auto;
+}
+.inner-div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px auto;
+    text-align: center;
+    font-weight: 800;
+
+
+}
+.right{
+    background-color: rgb(194, 81, 70);
+    border: 2px solid black;
+    color: rgb(122, 231, 89);
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 20px;
+}
+.wrong{
+    background-color: beige;
+    border: 2px solid black;
+    color: rgb(12, 33, 135);
+    padding: 30px 10px;
+    font-size: 20px;
+}
+#wrong-one{
+    float: left;
+    clear: both;
+}
+#wrong-two{
+    float: right;
+    clear: both;
+}
+.two{
+    background-color:lightcyan;
+}
+#wrong-three{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.relative{
+    position: relative;
+}
+#wrong-four{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+/* .......overflow............. */
+
+.overflowTest {
+    background-color: lightgrey;
+    width: 200px;
+    border: 15px solid green;
+    padding: 100px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+
+  }
+  .box{
+  padding: 20px;
+  width: 80px;
+  background-color: red;
+  border: 2px solid black;
+  position: absolute;
+  bottom: -200px;
+  left: 500px;
+
+
+  }
+  #overflowTest {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    height: 200px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+   margin-left: 200px;
+
+  }  
+
+  #selected{
+      height: auto;
+  }
+  p{
+      font-size: small;
+      overflow: scroll;
+      position: relative;
+      display: flex;
+      height: 100px;
+      width: 100%;
+  }
